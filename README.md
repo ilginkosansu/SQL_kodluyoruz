@@ -1,10 +1,10 @@
 # SQL_kodluyoruz
 ## Ödev 1:  
 - film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.  
-_*SELECT title, description FROM film;*_
+_* SELECT title, description FROM film; *_
 
-film tablosunda bulunan tüm sütunlardaki verileri film uzunluğu (length) 60 dan büyük VE 75 ten küçük olma koşullarıyla sıralayınız.  
-*SELECT * FROM film WHERE length > 60 AND length < 75;*
+- film tablosunda bulunan tüm sütunlardaki verileri film uzunluğu (length) 60 dan büyük VE 75 ten küçük olma koşullarıyla sıralayınız.  
+_*SELECT * FROM film WHERE length > 60 AND length < 75;*_
 
 film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99 VE replacement_cost 12.99 VEYA 28.99 olma koşullarıyla sıralayınız.  
 *SELECT * FROM film WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 28.99;*
